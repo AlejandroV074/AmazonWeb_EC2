@@ -1,0 +1,5 @@
+export * from '@/pages/home'
+export * from '@/pages/local'
+export * from '@/pages/history'
+export * from '@/pages/localPage'
+export * from '@/pages/map'

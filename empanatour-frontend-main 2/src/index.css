@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fondo global */
+body {
+  background-color: #fef1d7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.custom-popup > div {
+  background: transparent;
+  box-shadow: none;
+  margin: 0;
+}
+
+.custom-popup > div.leaflet-popup-tip-container,
+.custom-popup > a.leaflet-popup-close-button {
+  display: none;
+}
+
+.btn_local_map {
+  background-color: #b22020;
+  margin-top: -5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.btn_local_map > div {
+  background-color: #fef1d7;
+  mask-image: url(./img/visibility.svg);
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+
+  width: 20px;
+  height: 20px;
+
+  margin: auto;
+}
